@@ -148,8 +148,13 @@
     <Text Include="CODETEST.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="Render.hpp" />
+    <ClInclude Include="bullet.hpp" />
+    <ClInclude Include="Enemy.hpp" />
+    <ClInclude Include="GameLoop.hpp" />
+    <ClInclude Include="GameManager.hpp" />
+    <ClInclude Include="obj_interface.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="vec.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\ohyoodan\Desktop\PlayerSp.png" />

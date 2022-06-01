@@ -1,82 +1,124 @@
 ﻿// 201827055_YUDAN.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
-#include <iostream>
+
+#include <stdlib.h>
+#include <stdio.h>
 #include <GLFW/glfw3.h>
+#include "GameManager.hpp"
+#include "GameLoop.hpp"
+#include "vec.hpp"
+
+
 
 #pragma comment(lib, "opengl32.lib")
-
-
 
 static void error_callback(int error, const char* description)
 {
     fputs(description, stderr);
 }
+
+Player* p = new Player(0.1f,0.9f,0.9f ,STRIKERS_YUHAN::vec3(1.0f,0.0f,0.0f));
+GameLoop* game;
+
+
+
+
+
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
     if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
         glfwSetWindowShouldClose(window, GL_TRUE);
-}
+    
+    
+        if (key == GLFW_KEY_UP && action == GLFW_PRESS)
+            p->MoveUp(0.01f);
+        if (key == GLFW_KEY_UP && action == GLFW_RELEASE)
+            p->MoveUp(0.0f);
+        if (key == GLFW_KEY_DOWN && action == GLFW_PRESS)
+            p->MoveUp(-0.01f);
+        if (key == GLFW_KEY_DOWN && action == GLFW_RELEASE)
+            p->MoveUp(0.0f);
+        if (key == GLFW_KEY_RIGHT && action == GLFW_PRESS)
+            p->MoveRight(0.01f);
+        if (key == GLFW_KEY_RIGHT && action == GLFW_RELEASE)
+            p->MoveRight(0.0f);
+        if (key == GLFW_KEY_LEFT && action == GLFW_PRESS)
+            p->MoveRight(-0.01f);
+        if (key == GLFW_KEY_LEFT && action == GLFW_RELEASE)
+            p->MoveRight(0.0f);
+    }
+
+
+
+
+
+
+
 int main(void)
 {
-    GLFWwindow* window;
-
-    glfwSetErrorCallback(error_callback);
-
-
-    if (!glfwInit())
-        exit(EXIT_FAILURE); //GLFW 라이브러리 초기화
-
-
-    window = glfwCreateWindow(800, 1280, "STRIKERS YUHAN", NULL, NULL);//9:16 비율 
+        
     
 
-    if (!window)
-    {
+    
+    
+        GLFWwindow* window;
+
+        glfwSetErrorCallback(error_callback);
+        glfwSetKeyCallback(window, key_callback);//키 
+
+        if (!glfwInit())
+            exit(EXIT_FAILURE); //GLFW 라이브러리 초기화
+
+
+        window = glfwCreateWindow(800, 1280, "STRIKERS YUHAN", NULL, NULL);//9:16 비율 
+
+
+        if (!window)
+        {
+            glfwTerminate();
+            exit(EXIT_FAILURE);
+        }
+
+
+        glfwMakeContextCurrent(window);
+        //윈도우 창 생성
+        glfwSetKeyCallback(window, key_callback);
+
+
+
+        while (!glfwWindowShouldClose(window))
+        {
+            float ratio;
+            int width, height;
+            glfwGetFramebufferSize(window, &width, &height);
+            ratio = width / (float)height;
+
+
+            glClearColor(0.2f, 0.2f, 1, 1); //창 배경색 버퍼
+            glClear(GL_COLOR_BUFFER_BIT);//인자로 받은 창 버퍼로 교체
+
+            
+            p->Render();
+            
+            
+            
+
+            glfwSwapBuffers(window);
+            glfwPollEvents();
+        }
+        glfwDestroyWindow(window);
         glfwTerminate();
-        exit(EXIT_FAILURE);
+        exit(EXIT_SUCCESS);
+
+
     }
 
 
-    glfwMakeContextCurrent(window);
-    //윈도우 창 생성
-    glfwSetKeyCallback(window, key_callback);
 
 
 
-    while (!glfwWindowShouldClose(window))
-    {
-        float ratio;
-        int width, height; 
-        glfwGetFramebufferSize(window, &width, &height);
-        ratio = width / (float)height;
 
-
-        glClearColor(0.2, 0.2, 1, 1); //창 배경색 버퍼
-        glClear(GL_COLOR_BUFFER_BIT);//인자로 받은 창 버퍼로 교체
-
-        glBegin(GL_TRIANGLES);
-        glVertex2f(0.0f, 0.5f);
-        glColor3f(0.4f, 0.72f, 0.1f);
-
-        glVertex2f(-0.5f, -0.5f);
-        glColor3f(0.4f, 0.0f, 0.0f);
-
-        glVertex2f(0.5f, -0.5f);
-        glColor3f(0.0f, 0.0f, 0.0f);
-
-        glEnd();
-        glFlush();
-
-        glfwSwapBuffers(window);
-        glfwPollEvents();
-    }
-    glfwDestroyWindow(window);
-    glfwTerminate();
-    exit(EXIT_SUCCESS);
-
-    return 0;
-}
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
