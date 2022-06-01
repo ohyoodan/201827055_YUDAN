@@ -1,0 +1,3 @@
+﻿  201827055_YUDAN.cpp
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\201827055_YUDAN.cpp(55,36): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
+  201827055_YUDAN.vcxproj -> D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\x64\Debug\201827055_YUDAN.exe
