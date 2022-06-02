@@ -2,7 +2,7 @@
 
 namespace STRIKERS_YUHAN
 {
-	struct vec2
+	 struct vec2
 	{
 		float x;
 		float y;
