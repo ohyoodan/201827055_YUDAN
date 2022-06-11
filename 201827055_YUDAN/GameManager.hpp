@@ -8,7 +8,6 @@
 
 
 
-
 namespace STRIKERS_YUHAN {
 
 	class GameManager {
@@ -31,7 +30,7 @@ namespace STRIKERS_YUHAN {
 
 	};
 
-	
+		 
 		  
 		  
 

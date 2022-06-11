@@ -5,16 +5,20 @@
 
 
 namespace STRIKERS_YUHAN {
-	STRIKERS_YUHAN::vec2 coord;
-	STRIKERS_YUHAN::vec2 quad[4];
-	float size;
-	STRIKERS_YUHAN::vec3 color;
+	
 
 	class  Player {
 	public:
+		STRIKERS_YUHAN::vec2 coord;
+		STRIKERS_YUHAN::vec2 quad[4];
+		float size;
+		STRIKERS_YUHAN::vec3 color;
 
+		float  x, y;
+		int HP = 1;
+		float Speed = 3;
 
-
+		
 
 		Player(float size_, float x_, float y_, STRIKERS_YUHAN::vec3 col) {
 			coord = STRIKERS_YUHAN::vec2(0, 0);
@@ -25,20 +29,19 @@ namespace STRIKERS_YUHAN {
 			quad[1] = STRIKERS_YUHAN::vec2(size, size);
 			quad[2] = STRIKERS_YUHAN::vec2(-size, -size);
 			quad[3] = STRIKERS_YUHAN::vec2(size, -size);
-
 		}
 		~Player() {}
-
-
-
+		
+		
+		
 		void MoveUp(float distance)
 		{
-
+			coord.y = distance;
 		}
 
 		void MoveRight(float distance)
 		{
-
+			coord.x = distance;
 		}
 
 		void Render()
@@ -60,6 +63,19 @@ namespace STRIKERS_YUHAN {
 
 			glEnd();
 		}
+
+		
+		void Collider() {
+
+
+		}
+
+
+		void shot() {
+
+
+		}
+
+
 	};
 }
-

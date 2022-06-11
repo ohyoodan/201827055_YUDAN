@@ -1,7 +1,7 @@
 #pragma once
 
 
-
+#include "GameManager.hpp"
 
 using namespace STRIKERS_YUHAN;
 namespace STRIKERS_YUHAN {
