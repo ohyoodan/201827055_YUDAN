@@ -1,5 +1,5 @@
 #pragma once
-#include "obj_interface.hpp"
+
 
 
 namespace STRIKERS_YUHAN{
@@ -28,6 +28,7 @@ namespace STRIKERS_YUHAN{
 	class Enemybullet {
 		float x, y;
 		float speed;
+
 		Enemybullet() {};
 		~Enemybullet() {};
 

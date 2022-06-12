@@ -146,18 +146,18 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="CODETEST.txt" />
+    <Text Include="텍스트.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bullet.hpp" />
     <ClInclude Include="Enemy.hpp" />
     <ClInclude Include="GameLoop.hpp" />
     <ClInclude Include="GameManager.hpp" />
-    <ClInclude Include="obj_interface.hpp" />
     <ClInclude Include="Player.hpp" />
     <ClInclude Include="vec.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\ohyoodan\Desktop\PlayerSp.png" />
+    <Image Include="C:\Users\ohyoodan\Desktop\PlayerSp.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
