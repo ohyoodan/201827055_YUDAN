@@ -151,10 +151,13 @@
   <ItemGroup>
     <ClInclude Include="bullet.hpp" />
     <ClInclude Include="Enemy.hpp" />
+    <ClInclude Include="Enemyfactory.hpp" />
     <ClInclude Include="GameLoop.hpp" />
     <ClInclude Include="GameManager.hpp" />
+    <ClInclude Include="IObj.h" />
     <ClInclude Include="Player.hpp" />
     <ClInclude Include="vec.hpp" />
+    <ClInclude Include="Window_Render.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\ohyoodan\Desktop\PlayerSp.bmp" />

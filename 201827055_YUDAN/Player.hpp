@@ -1,5 +1,5 @@
 #pragma once
-
+#include <GLFW/glfw3.h>
 class Player {
 public:
     STRIKERS_YUHAN:: vec2 coord;
@@ -7,12 +7,11 @@ public:
     float size;
     STRIKERS_YUHAN::vec3 color;
 
-    Player(float size_, float x_, float y_, STRIKERS_YUHAN::vec3 col)
+    Player(float size_, float x_, float y_)
     {
         coord = STRIKERS_YUHAN::vec2(0, 0);
         size = 0.2;
-        color = col;
-
+        
         quad[0] = STRIKERS_YUHAN::vec2(-size, size);
         quad[1] = STRIKERS_YUHAN::vec2(size, size);
         quad[2] = STRIKERS_YUHAN::vec2(-size, -size);
@@ -33,24 +32,8 @@ public:
         coord.x = distance;
     }
 
-    void Render()
-    {
-        quad[0] = quad[0] + coord;
-        quad[1] = quad[1] + coord;
-        quad[2] = quad[2] + coord;
-        quad[3] = quad[3] + coord;
+    void shot() {
 
-        glBegin(GL_TRIANGLES);
-        glColor4f(color.x, color.y, color.z, 0.5f);
-        glVertex3f(quad[0].x, quad[0].y, 0.0f);
-        glVertex3f(quad[1].x, quad[1].y, 0.0f);
-        glVertex3f(quad[2].x, quad[2].y, 0.0f);
-
-        glVertex3f(quad[1].x, quad[1].y, 0.0f);
-        glVertex3f(quad[3].x, quad[3].y, 0.0f);
-        glVertex3f(quad[2].x, quad[2].y, 0.0f);
-
-        glEnd();
     }
 
 };

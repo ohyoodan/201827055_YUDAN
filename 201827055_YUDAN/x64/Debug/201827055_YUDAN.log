@@ -1,4 +1,78 @@
 ﻿  201827055_YUDAN.cpp
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(5,5): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(5,27): error C3646: 'coord': 알 수 없는 재정의 지정자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(5,32): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(6,5): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(6,26): error C3646: 'quad': 알 수 없는 재정의 지정자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(6,30): error C2143: 구문 오류: ','이(가) '[' 앞에 없습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(6,33): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(8,5): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(8,26): error C3646: 'color': 알 수 없는 재정의 지정자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(8,31): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(10,45): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(10,61): error C2061: 구문 오류: 식별자 'vec3'
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(12,9): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(12,17): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(12,33): error C3861: 'vec2': 식별자를 찾을 수 없습니다.
 D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(13,1): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
-  LINK : D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\x64\Debug\201827055_YUDAN.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
-  201827055_YUDAN.vcxproj -> D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\x64\Debug\201827055_YUDAN.exe
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(14,9): error C2065: 'color': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(14,17): error C2065: 'col': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(16,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(16,19): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(16,35): error C3861: 'vec2': 식별자를 찾을 수 없습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(17,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(17,19): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(17,35): error C3861: 'vec2': 식별자를 찾을 수 없습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(18,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(18,19): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(18,35): error C3861: 'vec2': 식별자를 찾을 수 없습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(19,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(19,19): error C2653: 'STRIKERS_YUHAN': 클래스 또는 네임스페이스 이름이 아닙니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(19,35): error C3861: 'vec2': 식별자를 찾을 수 없습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(28,9): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(33,9): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(38,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(38,19): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(38,29): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(39,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(39,19): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(39,29): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(40,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(40,19): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(40,29): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(41,9): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(41,19): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(41,29): error C2065: 'coord': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(44,19): error C2065: 'color': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(44,28): error C2065: 'color': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(44,37): error C2065: 'color': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(44,1): error C2660: 'glColor4f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1194,25): message : 'glColor4f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(45,20): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(45,31): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(45,1): error C2660: 'glVertex3f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1477,25): message : 'glVertex3f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(46,20): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(46,31): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(46,1): error C2660: 'glVertex3f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1477,25): message : 'glVertex3f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(47,20): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(47,31): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(47,1): error C2660: 'glVertex3f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1477,25): message : 'glVertex3f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(49,20): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(49,31): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(49,1): error C2660: 'glVertex3f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1477,25): message : 'glVertex3f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(50,20): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(50,31): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(50,1): error C2660: 'glVertex3f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1477,25): message : 'glVertex3f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(51,20): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(51,31): error C2065: 'quad': 선언되지 않은 식별자입니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Player.hpp(51,1): error C2660: 'glVertex3f': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\GL\gl.h(1477,25): message : 'glVertex3f' 선언을 참조하십시오.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Window_Render.hpp(11,81): error C2661: 'Player::Player': 오버로드된 함수에서 4개의 인수를 사용하지 않습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Window_Render.hpp(52,25): error C2059: 구문 오류: ')'
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Window_Render.hpp(53,5): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+D:\yuhan\프로그래밍 패턴\최종과제\소스파일\201827055_YUDAN\201827055_YUDAN\Window_Render.hpp(53,5): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?

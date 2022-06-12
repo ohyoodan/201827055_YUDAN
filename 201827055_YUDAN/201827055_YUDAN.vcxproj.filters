@@ -41,6 +41,15 @@
     <ClInclude Include="Enemy.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="IObj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_Render.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemyfactory.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\ohyoodan\Desktop\PlayerSp.bmp">

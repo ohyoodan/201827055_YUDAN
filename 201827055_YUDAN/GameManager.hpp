@@ -1,7 +1,10 @@
 #pragma once
 #include "Player.hpp"
-#include  "Enemy.hpp"
+#include  "Enemyfactory.hpp"
 #include "bullet.hpp"
+#include "vec.hpp"
+#include "Window_Render.hpp"
+#include <chrono>
 
 
 
@@ -27,6 +30,10 @@ namespace STRIKERS_YUHAN {
 
 	public: enum GameStart {
 		live = 0, Dead =1 , StaDefault = 2
+
+	};
+	public: enum GameEnd {
+		Good = 0, Bad = 1, EndDefault = 2
 
 	};
 
